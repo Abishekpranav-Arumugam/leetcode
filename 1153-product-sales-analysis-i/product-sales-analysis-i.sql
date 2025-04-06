@@ -1,0 +1,1 @@
+select product_name,year,price from Sales e1 inner join Product e2 where e1.product_id=e2.product_id;
